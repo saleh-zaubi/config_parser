@@ -6,7 +6,9 @@ Create an object from the class AsArrayParser with the file path as a parameter.
 ## Ex:
 
 $parser = new AsArrayParser("config.txt");
+
 $parser->readFile();
+
 $parser->dump();
 
 
